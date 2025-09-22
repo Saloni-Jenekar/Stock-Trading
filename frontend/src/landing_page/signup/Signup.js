@@ -32,8 +32,9 @@ function Signup() {
 
     setMessage("✅ Signup successful! Redirecting to Dashboard...");
     setTimeout(() => {
-      navigate("/dashboard");
-    }, 1000);
+  window.location.href = "https://stock-trading-hzbc.vercel.app/";
+}, 1000);
+
   };
 
   return (
